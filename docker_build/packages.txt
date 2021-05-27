@@ -1,0 +1,2 @@
+atari-py==0.2.6
+gym[atari]==0.15.6
