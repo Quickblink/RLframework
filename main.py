@@ -21,7 +21,7 @@ class CONFIG:
     SAMPLING_DEVICE = torch.device('cuda')  # where to store the replay buffer, may require significant gpu memory
     DATA_DEVICE = torch.device('cuda')  # where to run the network for data generation
     GAMMA = 0.99  # reward decay parameter from classic q learning
-    UPDATE_RATE = 3000  # after how many training iterations the target network is updated
+    UPDATE_RATE = 5000  # after how many training iterations the target network is updated
     BUFFER_CAPACITY = 500000  # capacity of the replay buffer
     START_LR = 1e-4  # base learning rate
     FINAL_LR = 1e-5  # decay stops here
