@@ -30,7 +30,7 @@ One example episode can be seen here:
 ![An AI agent playing Breakout](imgs/some_game.gif)
 
 The comparison of different methods below shows that frame stacking that is usually applied for Atari games
-can be replaced by using an LSTM. Combining both techniques does not provide an additional advantage.
+can be replaced by using an LSTM. Combining both techniques yields the best result.
 
 ![Breakout Results](imgs/results.svg)
 
