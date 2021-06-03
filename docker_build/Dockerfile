@@ -14,7 +14,7 @@ WORKDIR /home/developer
 
 COPY packages.txt /home/developer
 RUN pip install -r packages.txt
-RUN pip install --no-deps -i https://test.pypi.org/simple/ rnnbuilder==0.0.13
+RUN pip install --no-deps rnnbuilder==0.1.0
 
 #have this in the end because we are not root afterwards
 RUN export uid=1000 gid=1001 && \
